@@ -33,7 +33,7 @@ if (!isProduction) {
 if(isProduction){
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  mongoose.connect('mongodb://localhost/conduit');
+  mongoose.connect('mongodb://ushjkrpjwl3cmkegptcb:DTQXY7t3rPiAUHRfCujR@bwvcmegfzhfemov-mongodb.services.clever-cloud.com:27017/bwvcmegfzhfemov');
   mongoose.set('debug', true);
 }
 
